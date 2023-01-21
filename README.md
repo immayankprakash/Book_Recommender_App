@@ -11,12 +11,19 @@ uses streamlit, which allows for easy updates and maintenance of the app. With t
 making reading an even more enjoyable experience.
 
 ## Data
-The data used in this project was obtained from Kaggle and consists of book information and user ratings. The data was preprocessed and cleaned before
+The data used in this project was obtained from <a href="https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/">Kaggle</a>  and consists of book information and user ratings. The data was preprocessed and cleaned before
 being used for training the recommendation algorithm.
 
 ## Method
 The recommendation algorithm used in this project is based on collaborative filtering. It uses the user's past reading history and preferences to suggest
 new books that they may be interested in.
+
+### Collaborative Filtering 
+Collaborative filtering is a method of making recommendations by analyzing the preferences and behaviors of users. It is based on the idea that users who have similar preferences in the past will have similar preferences in the future. In collaborative filtering, there are two main types of algorithms: user-based and item-based. User-based collaborative filtering looks at the preferences of similar users and recommends items that those users have liked. Item-based collaborative filtering looks at the similarity between items and recommends items that are similar to the ones a user has liked in the past.
+
+<p align="center">
+  <img src="https://github.com/immayankprakash/Book_Recommender_App/blob/main/images/cf.png" width='400' height= '400' /> 
+<p>
 
 ## App Usage
 To use the app, simply navigate to the app's URL. The app will show top 50 books based on the rating on the side panel. You can choose a book from the drop down 
